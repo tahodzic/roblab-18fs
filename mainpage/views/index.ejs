@@ -1,0 +1,25 @@
+<!--
+including header content which is common for all pages
+-->
+<%- include layouts/header.ejs %>
+<div class="flex-container">
+    <% if (data) { %>
+    <% data.forEach(function(gericht){ %>
+		<div class="flex-item" id="gericht" data-id="<%= gericht._id %>"><%= gericht.Name %></div>
+    <% }) %>
+    <% } %>
+</div>
+<br><br><br>
+
+<input type="button" id="submit" value="Submit" name="submit">
+
+<!--form id="submitform" action="/order" method="post" name="orderForm" >
+<form id="submitform"name="orderForm" >
+  <input type="submit" value="Confirm order" name="submit" style="width:100px; height:100px;">
+</form>-->
+<div class="successdiv">
+
+<!--
+including footer content which is common for all pages
+-->
+<%- include layouts/footer.ejs %>
