@@ -40,5 +40,5 @@ Für das komplette Behaviour mit Menükarte wird Folgendes benötigt:
 
 ## Autoren
 
-* **tahodzic**
-* **Xeuks (https://github.com/Xeuks)
+* **Damir Hodzic**
+* **Sukirthan Kasipillai (https://github.com/Xeuks)
